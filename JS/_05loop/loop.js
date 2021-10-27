@@ -49,14 +49,3 @@
 //         continue;
 //     console.log(`${i} is a multiple of 3<br>`);
 // }
-
-for (i = 1; i <= 20; ++i) {
-    let speech = '';
-    if (i % 3 === 0)
-        speech += 'fizz';
-    if (i % 5 === 0)
-        speech += 'buzz';
-    if (!speech)
-        speech += i;
-    console.log(speech);
-}
