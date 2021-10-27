@@ -1,7 +1,7 @@
 const cardinal = 11;
 const least_significant_bit = cardinal % 10;
 const tens_digit = Math.floor(cardinal / 10) % 10;
-let ordinal = `${cardinal}`;
+let ordinal = toString(cardinal);
 
 switch (least_significant_bit) {
     case 1:
