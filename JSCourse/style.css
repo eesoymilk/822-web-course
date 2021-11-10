@@ -1,0 +1,21 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+img {
+    width: 100px;
+}
+div {
+    border: 5px black solid;
+}
+.til {
+    display: flex;
+    flex-direction: row;
+}
+.output {
+    display: flex;
+    flex-direction: column;
+}
+.js {
+    min-height: 100px;
+    background-color: aqua;
+}
