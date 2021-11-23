@@ -1,3 +1,14 @@
+// function FizzBuzz() {
+//   for (let i = 1; i <= 100; i++) {
+//     let str = "";
+//     if (i % 3 === 0)  str += "fizz";
+//     if (i % 5 === 0)  str += "buzz";
+//     if (!str)  str = i;
+//     console.log(str);
+//   }
+// }
+
+
 const pi = 3.1414926;
 const r1 = 5, r2 = 19; r3 = 37;
 
@@ -79,6 +90,8 @@ const Factorial = n => {
   if (n === 1)  return 1;
   return n * Factorial(n - 1);
 }
+// const Factorial = n => n === 1 ? 1 : n * Factorial(n - 1);
+console.log(Factorial(5));
 
 setTimeout(() => {
   console.log("One second has passed!");
